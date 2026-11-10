@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hoptire-tire-size"
+version = "0.1.0"
+description = "Parse metric tire markings and compare nominal dimensions."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "HopTire"}]
+keywords = ["tire", "tyre", "automotive", "parser"]
+classifiers = ["Programming Language :: Python :: 3", "Operating System :: OS Independent"]
+
+[project.urls]
+Homepage = "https://hoptire.com/guides/find-your-tire-size"
+Repository = "https://github.com/njerschow/hoptire-tire-size"
+Issues = "https://github.com/njerschow/hoptire-tire-size/issues"
+
+[project.scripts]
+hoptire-tire-size = "hoptire_tire_size.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

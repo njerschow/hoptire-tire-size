@@ -1,0 +1,14 @@
+{
+  "valid": [
+    {"input":"215/60R16", "normalized":"215/60R16", "diameterMm":664.4},
+    {"input":" p215/60r16 95h ", "normalized":"P215/60R16 95H", "diameterMm":664.4},
+    {"input":"LT245/75R16 120/116S", "normalized":"LT245/75R16 120/116S", "diameterMm":773.9},
+    {"input":"225/40ZR18 92Y XL", "normalized":"225/40ZR18 92Y XL", "diameterMm":637.2},
+    {"input":"245/40ZR19 98(Y)", "normalized":"245/40ZR19 98(Y)", "diameterMm":678.6},
+    {"input":"315/70R22.5 154/150L", "normalized":"315/70R22.5 154/150L", "diameterMm":1012.5},
+    {"input":"ST205/75R15 107M", "normalized":"ST205/75R15 107M", "diameterMm":688.5},
+    {"input":"T125/70R16 96M", "normalized":"T125/70R16 96M", "diameterMm":581.4},
+    {"input":"205/55 R16 91V REINF", "normalized":"205/55R16 91V REINF", "diameterMm":631.9}
+  ],
+  "invalid": ["", "2156016", "35x12.50R17", "215/60R16 junk", "215/60R16\n", "0/00R00", "215/60R0", "215/60R16 95", "215/60R16 95HH", 215, null, {}, true]
+}
