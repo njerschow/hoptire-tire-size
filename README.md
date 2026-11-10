@@ -6,6 +6,8 @@ Built by [HopTire](https://hoptire.com/), a mobile tire service. See the [tire-s
 
 ## JavaScript
 
+Registry publication is pending. Until npm and PyPI are live, download the package from [GitHub Releases](https://github.com/njerschow/hoptire-tire-size/releases/latest). Install the `.tgz` with `npm install ./hoptire-tire-size-0.1.0.tgz` or the `.whl` with `pip install ./hoptire_tire_size-0.1.0-py3-none-any.whl`. The registry commands below apply after publication.
+
 ```sh
 npm install hoptire-tire-size
 ```
